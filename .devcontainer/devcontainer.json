@@ -1,4 +1,5 @@
 {
   "name": "QPM",
-  "postCreateCommand": "bash .devcontainer/install.sh"
+  "postCreateCommand": "bash .devcontainer/install.sh",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy"
 }
