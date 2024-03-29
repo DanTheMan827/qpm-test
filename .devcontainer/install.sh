@@ -6,3 +6,5 @@ wget "https://github.com/QuestPackageManager/QPM.CLI/releases/download/v1.1.0/qp
 sudo unzip -o "qpm.zip" -d /usr/bin
 sudo chmod +rx /usr/bin/qpm
 rm "qpm.zip"
+sudo apt update
+sudo apt install -y cmake
