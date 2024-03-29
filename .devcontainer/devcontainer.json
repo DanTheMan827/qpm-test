@@ -24,5 +24,7 @@
           "version": "latest"
       }
   },
+  "remoteUser": "codespace",
+  "containerUser": "codespace",
   "postCreateCommand": "qpm restore"
 }
