@@ -13,3 +13,5 @@ RUN wget "https://github.com/QuestPackageManager/QPM.CLI/releases/download/v1.1.
     rm "qpm.zip"
 
 ENV ANDROID_NDK_HOME=/android-ndk-r27-canary
+
+VOLUME [ "/var/lib/docker" ]
