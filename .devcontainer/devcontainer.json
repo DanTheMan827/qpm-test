@@ -1,24 +1,11 @@
 {
   "name": "QPM",
-  "build": {
-      "dockerfile": "./Dockerfile",
-      "context": "."
-  },
+  "image": "ghcr.io/dantheman827/qpm-docker:master",
   "features": {
       "ghcr.io/devcontainers/features/common-utils:2": {
           "username": "codespace",
           "userUid": "1000",
           "userGid": "1000"
-      },
-          "ghcr.io/devcontainers/features/sshd:1": {
-          "version": "latest"
-      },
-      "ghcr.io/devcontainers/features/git:1": {
-          "version": "latest",
-          "ppa": "false"
-      },
-      "ghcr.io/devcontainers/features/git-lfs:1": {
-          "version": "latest"
       },
       "ghcr.io/devcontainers/features/github-cli:1": {
           "version": "latest"
