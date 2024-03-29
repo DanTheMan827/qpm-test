@@ -1,5 +1,7 @@
 {
   "name": "QPM",
-  "onCreateCommand": "bash .devcontainer/install.sh",
-  "image": "mcr.microsoft.com/devcontainers/universal:linux"  
+  "build": {
+      "dockerfile": "./Dockerfile",
+      "context": "."
+  }
 }
