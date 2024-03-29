@@ -1,5 +1,5 @@
 {
   "name": "QPM",
   "onCreateCommand": "bash .devcontainer/install.sh",
-  "image": "mcr.microsoft.com/devcontainers/base:jammy"
+  "image": "mcr.microsoft.com/devcontainers/universal:linux"  
 }
